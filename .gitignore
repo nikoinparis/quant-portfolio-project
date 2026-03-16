@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.env
+
+# data files
+data/*.csv
+data/*.parquet
+data/*.pkl
+
+# outputs
+results/*.png
+results/*.csv
+results/*.html
+
+# vscode local settings
+.vscode/
