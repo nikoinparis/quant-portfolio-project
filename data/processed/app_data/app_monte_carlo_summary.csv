@@ -1,0 +1,2 @@
+strategy,num_simulations,horizon_months,median_terminal_value,p10_terminal_value,p90_terminal_value,prob_finish_above_1_0x,prob_finish_above_1_5x,prob_finish_above_2_0x,median_max_drawdown,p10_max_drawdown,p90_max_drawdown,prob_maxdd_worse_than_20pct,prob_maxdd_worse_than_30pct
+Shared_252d_MinVar_VolTarget_Sleeve,25000,60,1.8761401676630365,1.3605442932276604,2.5882755509138993,0.99492,0.8144,0.399,-0.10571092122495768,-0.1709760524328579,-0.0660783815138487,0.04252,0.00176

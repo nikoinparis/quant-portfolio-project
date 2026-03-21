@@ -1,0 +1,13 @@
+display_name,column_name,source,category,description,is_default
+Shared 180d,Shared_180d,final_comparison_returns,base,Shared 180-day momentum strategy with inverse-vol weighting.,False
+Shared 180d + VolTarget + Sleeve,Shared_180d_VolTarget_Sleeve,risk_overlay_returns,overlay,Shared 180-day strategy with portfolio-level vol targeting and defensive sleeve.,False
+Shared 252d,Shared_252d,final_comparison_returns,base,Shared 252-day momentum strategy with inverse-vol weighting.,False
+Shared 252d + VolTarget + Sleeve,Shared_252d_VolTarget_Sleeve,risk_overlay_returns,overlay,Shared 252-day strategy with portfolio-level vol targeting and defensive sleeve.,False
+Shared 252d + MinVar + VolTarget + Sleeve,Shared_252d_MinVar_VolTarget_Sleeve,portfolio_construction_overlay_returns,final_winner,"Final winning strategy: shared 252-day signal with minimum variance weighting, vol targeting, and defensive sleeve.",True
+Best Static ETF-Level,Best_Static_ETF_Level,final_comparison_returns,advanced,Static ETF-specific lookback strategy.,False
+Best Static ETF-Level + VolTarget + Sleeve,Best_Static_ETF_Level_VolTarget_Sleeve,risk_overlay_returns,advanced_overlay,ETF-level strategy with portfolio-level vol targeting and defensive sleeve.,False
+SPY Buy & Hold,SPY_BuyHold,final_comparison_returns,benchmark,SPY benchmark.,False
+60/40 Portfolio,Portfolio_60_40,final_comparison_returns,benchmark,60/40 benchmark.,False
+DBMF,DBMF,final_comparison_returns,benchmark,Managed futures benchmark.,False
+KMLM,KMLM,final_comparison_returns,benchmark,Managed futures / trend benchmark.,False
+RPAR,RPAR,final_comparison_returns,benchmark,Risk parity benchmark.,False
